@@ -1,0 +1,12 @@
+name: test-workflow
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Клонируем репозиторий
+      - uses: actions/checkout@v4
+      # Устанавливаем Node.js
+      - uses: actions/setup-node@v4
+      - run: make setup
+      - run: make test
+      - run: make lint
