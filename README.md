@@ -1,12 +1,14 @@
 # Example app for CI Hexlet course
 
+[![test-workflow](https://github.com/cheenchok/hexlet-ci-app/actions/workflows/test-workflow.yml/badge.svg)](https://github.com/cheenchok/hexlet-ci-app/actions/workflows/test-workflow.yml)
+
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
 
-* NodeJS >= 18
-* NPM >= 6.x
-* Make
+- NodeJS >= 18
+- NPM >= 6.x
+- Make
 
 ## Using
 
